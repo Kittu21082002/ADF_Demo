@@ -1,0 +1,9 @@
+{
+	"name": "mrktecchadf",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "19869e2f-61db-4b7c-9e20-7f344adecbfa",
+		"tenantId": "0bca7ac3-fcb6-4efd-89eb-6de97603cf21"
+	}
+}
