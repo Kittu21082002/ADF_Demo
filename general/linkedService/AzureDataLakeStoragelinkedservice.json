@@ -1,0 +1,10 @@
+{
+	"name": "AzureDataLakeStoragelinkedservice",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://genadlsacco.dfs.core.windows.net/"
+		}
+	}
+}
