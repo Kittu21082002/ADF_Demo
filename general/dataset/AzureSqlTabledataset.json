@@ -5,6 +5,14 @@
 			"referenceName": "AzureSqlDatabaselinkedservice",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"schemaName": {
+				"type": "string"
+			},
+			"tableName": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [
@@ -34,8 +42,14 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "fintech",
-			"table": "Customers"
+			"schema": {
+				"value": "@dataset().schemaName",
+				"type": "Expression"
+			},
+			"table": {
+				"value": "@dataset().tableName",
+				"type": "Expression"
+			}
 		}
 	}
 }
