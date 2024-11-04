@@ -1,7 +1,0 @@
-{
-	"name": "shir",
-	"properties": {
-		"type": "SelfHosted",
-		"description": "used to connect mysql in my laptop"
-	}
-}
